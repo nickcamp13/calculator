@@ -4,3 +4,30 @@
     box-sizing: border-box;
 }
 
+.calculator {
+    max-width: 300px;
+    width: 100%;
+    margin: 5rem auto;
+
+    /* Testing Styles */
+    border: 2px black solid;
+}
+
+.screen {
+    margin: 4px;
+    padding: 2px;
+    /* Testing Styles */
+    border: 2px black solid;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
